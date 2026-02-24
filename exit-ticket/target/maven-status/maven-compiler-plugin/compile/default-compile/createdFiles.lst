@@ -1,0 +1,4 @@
+jgc\exit_ticket\client\Client.class
+jgc\exit_ticket\server\Question.class
+jgc\exit_ticket\server\Server$ClientHandler.class
+jgc\exit_ticket\server\Server.class
