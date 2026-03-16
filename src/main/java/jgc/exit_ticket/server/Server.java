@@ -42,7 +42,7 @@ public class Server {
         System.out.println("Starting server...");
         
         try (//Create a ServerSocket listening on port 6666
-		ServerSocket serverSocket = new ServerSocket(PORT, 0, InetAddress.getLoopbackAddress())) {
+		ServerSocket serverSocket = new ServerSocket(PORT)) {
         	System.out.println("Server Started. Listening on " + serverSocket.getInetAddress().getHostAddress() + " on port " + PORT + "...");
         
         	ExecutorService pool = Executors.newCachedThreadPool();
